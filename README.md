@@ -19,9 +19,9 @@ Make sure you have python 3.8 and pip installed.
 ```bash
 $ cd urlyze
 $ mkdir -p $HOME/.local/bin
-$ echo "export PATH=$PATH:$HOME/.local/.bin" >> $HOME/.profile
+$ echo "export PATH=$PATH:$HOME/.local/bin" >> $HOME/.profile
 $ source $HOME/.profile
-$ ln -s $(pwd)/urlyze.py $HOME/.local/.bin/urlyze
+$ ln -s $(pwd)/urlyze.py $HOME/.local/bin/urlyze
 $ urlyze -i input.txt -o output.txt
 ```
 
